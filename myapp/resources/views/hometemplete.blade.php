@@ -28,13 +28,13 @@
         <a class="nav-link" href="home" style="margin-left:10px;">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about">About</a>
+        <a class="nav-link" href="about" style="margin-left:10px;">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="product">Products</a>
+        <a class="nav-link" href="product" style="margin-left:10px;">Products</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left:10px;">
           More
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,6 +46,15 @@
     </ul>
   </div>
 </nav>
+    @show
+
+    @section('hero')
+    <section class="hero">
+        <video autoplay muted loop class="hero-video">
+            <source src="video/bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
     @show
    
     @section('home')
