@@ -32,3 +32,19 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Route::name('more.')->group(function () {
+    Route::get('/services', function () {
+        return view('services');
+    })->name('services');
+    Route::get('/contact', function () {
+        return view('contact');
+    })->name('contact');
+    Route::get('/faq', function () {
+        return view('faq');
+    })->name('faq');
+});
+
+Route::get('/product', function () {
+    return view('product');
+})->name('product');

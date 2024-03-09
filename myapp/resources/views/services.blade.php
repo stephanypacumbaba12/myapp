@@ -1,12 +1,12 @@
-@extends('aboustemplete')
+@extends('servicestem')
 @section('title')
-About
+SERVICES
 @endsection
 
 
 @section('content')
 @parent
 <div class = "container text-center">
-   
+
 </div>
 @endsection

@@ -1,6 +1,6 @@
 @extends('contactTem')
 @section('title')
-HOME
+Contact
 @endsection
 
 

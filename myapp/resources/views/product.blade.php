@@ -1,6 +1,6 @@
-@extends('aboustemplete')
+@extends('shopTem')
 @section('title')
-About
+PRODUCTS
 @endsection
 
 

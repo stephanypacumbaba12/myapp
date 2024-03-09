@@ -17,27 +17,37 @@
 
 
 @section('header')
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="/"><img src="images/logo.png" alt="Shoe E-commerce"></a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="shop">Shop</a></li>
-                    <li><a href="about">About Us</a></li>
-                    <li><a href="contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="search-cart">
-                <input type="text" placeholder="Search">
-                <a href="#"><img src="images/logo1.webp" alt="Cart"></a>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="/"><img src="images/logo.png" alt="Shoe E-commerce" style="width:40px; margin-left:10px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home" style="margin-left:10px;">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product">Products</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="services">Services</a>
+          <a class="dropdown-item" href="contact">Contact</a>
+          <a class="dropdown-item" href="faq">FAQ</a>
         </div>
-    </header>
+      </li>
+    </ul>
+  </div>
+</nav>
     @show
-    <hr>
+
     @section('shop')
     <section class="card-section">
     <div class="card">
@@ -161,10 +171,9 @@
             <div class="footer-col">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+                <li><a href="home">Home</a></li>
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="product">Products</a></li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -178,5 +187,8 @@
 </footer>
 
     @show
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

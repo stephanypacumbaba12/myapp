@@ -1,6 +1,6 @@
 @extends('shopTem')
 @section('title')
-HOME
+SHOP
 @endsection
 
 

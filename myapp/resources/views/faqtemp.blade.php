@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{asset('images/logo.png')}}">
     <link rel="stylesheet" href="{{asset('bootstrap/icons/font/bootstrap-icons.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    
 
 
     <head>
@@ -49,16 +48,28 @@
 </nav>
     @show
 
-    @section('hero')
-    <section class="hero">
-        <video autoplay muted loop class="hero-video">
-            <source src="video/bg.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section>
-    @show
-    
-    
+   @section('faq')
+   <section id="faq">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-container">
+      <div class="faq-item">
+        <h3 class="question">Question 1: What is Lorem Ipsum?</h3>
+        <p class="answer">Answer: Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+      <div class="faq-item">
+        <h3 class="question">Question 2: Why do we use it?</h3>
+        <p class="answer">Answer: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+      </div>
+      <div class="faq-item">
+        <h3 class="question">Question 3: Where does it come from?</h3>
+        <p class="answer">Answer: Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+      </div>
+    </div>
+  </div>
+</section>
+   @show
+
     @section('fps')
     <section class="featured-products">
     <div class="container">
@@ -172,7 +183,6 @@
 </footer>
 
     @show
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

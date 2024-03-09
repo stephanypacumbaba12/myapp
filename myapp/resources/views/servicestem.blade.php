@@ -16,7 +16,6 @@
 
 <body>
 
-
 @section('header')
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a href="/"><img src="images/logo.png" alt="Shoe E-commerce" style="width:40px; margin-left:10px;"></a>
@@ -48,16 +47,35 @@
   </div>
 </nav>
     @show
-
-    @section('hero')
-    <section class="hero">
-        <video autoplay muted loop class="hero-video">
-            <source src="video/bg.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section>
-    @show
     
+@section('services')
+<section id="services">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-container">
+      <div class="service">
+        <img src="service1.jpg" alt="Service 1">
+        <h3>Service Title 1</h3>
+        <p>Description of Service 1 goes here.</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+      <div class="service">
+        <img src="service2.jpg" alt="Service 2">
+        <h3>Service Title 2</h3>
+        <p>Description of Service 2 goes here.</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+      <div class="service">
+        <img src="service3.jpg" alt="Service 3">
+        <h3>Service Title 3</h3>
+        <p>Description of Service 3 goes here.</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+    @show
+
     
     @section('fps')
     <section class="featured-products">
