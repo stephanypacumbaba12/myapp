@@ -1,4 +1,4 @@
-@extends('aboustemplete')
+@extends('abouttemplete')
 @section('title')
 About
 @endsection

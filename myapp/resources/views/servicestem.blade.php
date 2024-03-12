@@ -47,37 +47,29 @@
   </div>
 </nav>
     @show
-
-    @section('hero')
-    <section class="hero">
-        <video autoplay muted loop class="hero-video">
-            <source src="video/bg.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section>
-    @show
-    
+  
 @section('services')
 <section id="services">
   <div class="container">
     <h2 class="section-title">Our Services</h2>
     <div class="services-container">
       <div class="service">
-        <img src="service1.jpg" alt="Service 1">
-        <h3>Service Title 1</h3>
-        <p>Description of Service 1 goes here.</p>
+        <h3>Service 1</h3>
+        <p>Stride confidently with our shoe subscription service, 
+        delivering curated footwear options tailored to your style preferences 
+        right to your doorstep every month.</p>
         <a href="#" class="btn">Learn More</a>
       </div>
       <div class="service">
-        <img src="service2.jpg" alt="Service 2">
-        <h3>Service Title 2</h3>
-        <p>Description of Service 2 goes here.</p>
+        <h3>Service 2</h3>
+        <p>Experience hassle-free shoe shopping with our virtual fitting service, 
+        where expert stylists help you find the ideal pair without leaving the comfort of your home.</p>
         <a href="#" class="btn">Learn More</a>
       </div>
       <div class="service">
-        <img src="service3.jpg" alt="Service 3">
-        <h3>Service Title 3</h3>
-        <p>Description of Service 3 goes here.</p>
+        <h3>Service 3</h3>
+        <p>Unlock exclusive perks and personalized recommendations with our loyalty program,
+        designed to reward your loyalty while ensuring you stay ahead in the world of footwear fashion.</p>
         <a href="#" class="btn">Learn More</a>
       </div>
     </div>
@@ -92,17 +84,27 @@
         <h2>Featured Products</h2>
         <div class="product-grid">
             <div class="product">
-                <img src="product1.jpg" alt="Product 1">
+                <img src="images/1.png" alt="Product 1">
                 <h3>Product 1</h3>
-                <p>Description of Product 1</p>
-                <span class="price">$49.99</span>
+                <p>Step into style with our versatile range of athletic sneakers,
+                designed to enhance your performance while keeping you on-trend wherever you go.</p>
+                <span class="price">₱999</span>
                 <a href="#" class="btn">Shop Now</a>
             </div>
             <div class="product">
-                <img src="product2.jpg" alt="Product 2">
+                <img src="images/2.png" alt="Product 2">
                 <h3>Product 2</h3>
-                <p>Description of Product 2</p>
-                <span class="price">$59.99</span>
+                <p>Elevate your wardrobe with our collection of premium leather loafers,
+                crafted with meticulous attention to detail for a timeless blend of sophistication and comfort.</p>
+                <span class="price">₱1500</span>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="product">
+                <img src="images/3.png" alt="Product 3">
+                <h3>Product 2</h3>
+                <p>Find your perfect fit for any occasion with our curated selection of trendy sandals,
+                offering both fashion-forward designs and durable support for all-day wear.</p>
+                <span class="price">₱2000</span>
                 <a href="#" class="btn">Shop Now</a>
             </div>
             <!-- Add more product items here -->
@@ -117,18 +119,18 @@
         <h2>Why Choose Us?</h2>
         <div class="benefits-list">
             <div class="benefit">
-                <img src="icon1.png" alt="Free Shipping">
+                <img src="images/1.png" alt="Free Shipping">
                 <h3>Free Shipping</h3>
                 <p>Enjoy free shipping on all orders.</p>
             </div>
             <div class="benefit">
-                <img src="icon2.png" alt="Quality Assurance">
+                <img src="images/2.png" alt="Quality Assurance">
                 <h3>Quality Assurance</h3>
                 <p>We guarantee the quality of our products.</p>
             </div>
             <div class="benefit">
-                <img src="icon3.png" alt="24/7 Support">
-                <h3>24/7 Support</h3>
+                <img src="images/3.png" alt="24/7 Support">
+                <h3>Support</h3>
                 <p>Our customer support team is available 24/7.</p>
             </div>
         </div>
@@ -141,14 +143,14 @@
     <div class="container">
         <h2>What Our Customers Say</h2>
         <div class="testimonial">
-            <img src="avatar1.jpg" alt="Customer 1">
+            <img src="images/customer1.jpg" alt="Customer 1">
             <blockquote>
                 <p>"I love the quality of the shoes I bought from this website. They are comfortable and stylish. Highly recommended!"</p>
                 <cite>John Doe</cite>
             </blockquote>
         </div>
         <div class="testimonial">
-            <img src="avatar2.jpg" alt="Customer 2">
+            <img src="images/customer2.jpg" alt="Customer 2">
             <blockquote>
                 <p>"Great customer service and fast shipping. Will definitely purchase from here again!"</p>
                 <cite>Jane Smith</cite>
@@ -190,8 +192,8 @@
             </div>
             <div class="footer-col">
                 <h3>Contact Info</h3>
-                <p>123 Main Street, City</p>
-                <p>Email: info@example.com</p>
+                <p>San Miguel Street, Tagum City</p>
+                <p>Email: pavillo.com</p>
                 <p>Phone: +123 456 789</p>
             </div>
         </div>

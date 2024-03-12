@@ -1,4 +1,4 @@
-@extends('shopTem')
+@extends('producttem')
 @section('title')
 PRODUCTS
 @endsection
