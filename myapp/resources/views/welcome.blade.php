@@ -9,7 +9,7 @@
 
     <section class="hero">
         <video autoplay muted loop class="hero-video">
-            <source src="video/bg.mp4" type="video/mp4" style="background-size: cover;">
+            <source src="video/bg.mp4" type="video/mp4">
         </video>
     </section>
 
